@@ -14,6 +14,8 @@
 		4D833B24278003D60009998E /* BoochTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D833B23278003D60009998E /* BoochTests.swift */; };
 		4D833B2E278003D60009998E /* BoochUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D833B2D278003D60009998E /* BoochUITests.swift */; };
 		4D833B30278003D60009998E /* BoochUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D833B2F278003D60009998E /* BoochUITestsLaunchTests.swift */; };
+		4D833B3D2781FDDE0009998E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D833B3C2781FDDE0009998E /* LoginView.swift */; };
+		4D833B8627821AE00009998E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D833B8527821ADF0009998E /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		4D833B29278003D60009998E /* BoochUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoochUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D833B2D278003D60009998E /* BoochUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoochUITests.swift; sourceTree = "<group>"; };
 		4D833B2F278003D60009998E /* BoochUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoochUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D833B3C2781FDDE0009998E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4D833B8527821ADF0009998E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +98,13 @@
 		4D833B11278003D30009998E /* Booch */ = {
 			isa = PBXGroup;
 			children = (
+				4D833B8427821A3E0009998E /* New Group */,
 				4D833B12278003D30009998E /* BoochApp.swift */,
 				4D833B14278003D30009998E /* ContentView.swift */,
+				4D833B3C2781FDDE0009998E /* LoginView.swift */,
 				4D833B16278003D60009998E /* Assets.xcassets */,
 				4D833B18278003D60009998E /* Preview Content */,
+				4D833B8527821ADF0009998E /* ProfileView.swift */,
 			);
 			path = Booch;
 			sourceTree = "<group>";
@@ -125,6 +132,13 @@
 				4D833B2F278003D60009998E /* BoochUITestsLaunchTests.swift */,
 			);
 			path = BoochUITests;
+			sourceTree = "<group>";
+		};
+		4D833B8427821A3E0009998E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D833B8627821AE00009998E /* ProfileView.swift in Sources */,
+				4D833B3D2781FDDE0009998E /* LoginView.swift in Sources */,
 				4D833B15278003D30009998E /* ContentView.swift in Sources */,
 				4D833B13278003D30009998E /* BoochApp.swift in Sources */,
 			);

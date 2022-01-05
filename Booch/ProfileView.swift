@@ -1,21 +1,20 @@
 //
-//  ContentView.swift
+//  ProfileView.swift
 //  Booch
 //
-//  Created by Mark Conley on 12/31/21.
+//  Created by Mark Conley on 1/2/22.
 //
 
 import SwiftUI
 
-struct ContentView: View {
-    
+struct ProfileView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ProfileView()
     }
 }
